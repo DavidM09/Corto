@@ -41,7 +41,7 @@ int main (){
             case 1:
             cout <<"Laptop Basica - su total es de $720" << endl;
             total = (mny - 720);
-            cout <<"su saldo restante es de:" << total << endl;
+            cout <<"Compra exitosa usted a comprado Laptop Basica, su saldo restante es de:" << total << endl;
 
             break;
             
@@ -50,7 +50,7 @@ int main (){
             case 2:
             cout <<"Tablet Estudiantil - su total es de $480" << endl;
             total = (mny - 480);
-            cout <<"su saldo restante es de: " << total << endl;
+            cout <<"Compra exitosa usted a comprado Tablet Estudiantil , su saldo restante es de: " << total << endl;
             break;
 
             return 0;
@@ -58,7 +58,7 @@ int main (){
             case 3:
             cout <<"Chromebook - su total es de $560" << endl;
             total = (mny - 560);
-            cout <<"su saldo restante es de: " << total << endl;
+            cout <<"Compra exitosa usted a comprado Chromebook, su saldo restante es de: " << total << endl;
             break;
 
             return 0;
@@ -113,7 +113,7 @@ int main (){
     } 
 
     break; 
-    
+
       case 3:
         cout << "Lista de dispositivos disponibles (estudiantiles) " << endl; // dispositivos de estudiante
         cout << "1. Laptop Basica: $900 " << endl;
